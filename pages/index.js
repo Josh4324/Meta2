@@ -11,7 +11,7 @@ export default function HomePage() {
   const [status, setStatus] = useState(false);
   const taskRef = useRef();
 
-  const contractAddress = "0x0Ae97a46a87F886ed60bC3b3d903F7600D10E1C1";
+  const contractAddress = "0xE0F50FB4a4Fa753a88dB7c3a9003D97c04dF316E";
   const taskABI = todo_abi.abi;
 
   const getWallet = async () => {
